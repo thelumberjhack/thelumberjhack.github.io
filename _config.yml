@@ -30,12 +30,14 @@ social-network-links:
   email: thelumberjhack@[del-me]pm.me
   rss: true
 
-link-tags: false # TODO
+link-tags: true
 title-separator: " | "
 
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
 remote_theme: daattali/beautiful-jekyll@4.0.1
 permalink: /:year-:month-:day-:title/
 paginate: 5
