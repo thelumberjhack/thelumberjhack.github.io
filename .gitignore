@@ -1,4 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-*.lock
+output
+Pipfile.lock
+.vscode
+.mypy_cache

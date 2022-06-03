@@ -1,16 +1,13 @@
----
-layout: post
-title:  "Attacking VxWorks: From stone age to interstellar"
-date:   2015-10-22 10:00:00 -0800
-tags:
-    - talk
-    - security
-    - research
-    - vxworks
-    - vulnerability
-readtime: true
-cover-img: {"assets/images/posts/rover.jpg" : "Curiosity Mars Rover"}
----
+Title: Attacking VxWorks: From stone age to interstellar
+Date: 2015-10-22 10:00
+Modified: 2022-06-02 19:59
+Category: Publication
+Tags: talk, security, research, fuzzing, vxworks, cve-2015-7599
+Slug: vxworks-stone-age-interstellar
+Authors: thelumberjhack
+Summary: Syscan 360/44Con 2015 Talk on researching, finding and exploiting vulnerabilities in VxWorks real-time OS.
+Status: published
+
 Presented first at [44Con London][44con-london] in September 2015 then at [Syscan 360][syscan-360] in Beijing in October 2015.
 
 ## Introduction

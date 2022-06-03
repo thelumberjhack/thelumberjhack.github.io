@@ -1,16 +1,12 @@
----
-layout: post
-title:  "Reverse engineering & hijacking toy quadcopters – All ur dr0nz r belong 2 me"
-date:   2017-03-14 00:00:00
-tags:
-    - talk
-    - security
-    - research
-    - sdr
-    - drone
-    - cx10wd
-readtime: true
----
+Title: Reverse engineering & hijacking toy quadcopters – All ur dr0nz r belong 2 me
+Date: 2017-03-14 10:00:00
+Modified: 2022-06-02 19:53
+Category: Publication
+Tags: talk, security, research, SDR, drone, CX-10WD
+Slug: all-your-dr0nes
+Authors: thelumberjhack
+Summary: BSides Vancouver 2017 Talk on reversing and hijacking toy quadcopters
+Status: published
 
 Presented at [BSides Vancouver][bsides-vancouver] in March 2017.
 
