@@ -1,10 +1,12 @@
+lang: en
 title: TheLumberJ(h)ack
 description: >-
   Trials and tribulations of a lumberj(h)ack in the infosec world.
   Breaking and sometimes building stuff, Reverse-engineering, malware
   analysis, fuzzing all the things...
 baseurl: "" 
-url: "https://thelumberjhack.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thelumberjhack.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: thelumberjhack.com
 author: thelumberjhack
 
 avatar: "/assets/images/site/logo.png"
@@ -16,7 +18,7 @@ social-network-links:
   github:  thelumberjhack
   linkedin: yannickformaggio
   email: thelumberjhack@[del-me]pm.me
-  mastodon: infosec.exchange/@thelumberjhack
+  mastodon: https://infosec.exchange/@thelumberjhack
   rss: true
 
 rss-description: Trials and tribulations of thelumberjhack in the infosec world
@@ -40,13 +42,17 @@ kramdown:
 remote_theme: daattali/beautiful-jekyll@6.0.1
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor
